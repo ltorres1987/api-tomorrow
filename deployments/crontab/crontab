@@ -1,0 +1,7 @@
+# m h  dom mon dow   command
+*/5 * * * * sleep 1; sh /tomorrow.sh santiago >> /app/tomorrow-santiago.txt
+*/5 * * * * sleep 2; sh /tomorrow.sh zurich >> /app/tomorrow-zurich.txt
+*/5 * * * * sleep 3; sh /tomorrow.sh auckland >> /app/tomorrow-auckland.txt
+*/5 * * * * sleep 4; sh /tomorrow.sh sidney >> /app/tomorrow-sidney.txt
+*/5 * * * * sleep 5; sh /tomorrow.sh londres >> /app/tomorrow-londres.txt
+*/5 * * * * sleep 6; sh /tomorrow.sh georgia >> /app/tomorrow-georgia.txt
